@@ -9,6 +9,7 @@ class TestSong:
     Song("Halo", "Beyonce", "Pop")
     Song("Smells Like Teen Spirit", "Nirvana", "Rock")
 
+
     def test_saves_name_artist_genre(self):
         '''instantiates with a name, artist, and genre.'''
         out_of_touch = Song("Out of Touch", "Hall and Oates", "Pop")
